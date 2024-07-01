@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.diagnose.DiagnoseFragment"
+    android:background="@drawable/background_page_ii">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header_background_ii">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/titleDiagnosa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Diagnosa"
+                    android:textColor="@color/White"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+        <ScrollView
+            android:layout_below="@+id/toolBar"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <RelativeLayout
+                    android:layout_width="350dp"
+                    android:layout_height="match_parent"
+                    tools:ignore="UselessParent">
+
+                    <CheckBox
+                        android:id="@+id/G01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Penglihatan Terasa Kabur" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G01"/>
+                    <CheckBox
+                        android:id="@+id/G02"
+                        android:layout_below="@id/G01"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mata berair"/>
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G02"/>
+
+                    <CheckBox
+                        android:id="@+id/G03"
+                        android:layout_below="@id/G02"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mata bengkak" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G03"/>
+
+                    <CheckBox
+                        android:id="@+id/G04"
+                        android:layout_below="@id/G03"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mata terasa perih" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G04"/>
+
+                    <CheckBox
+                        android:id="@+id/G05"
+                        android:layout_below="@id/G04"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mata terasa ada yang mengganjal" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G05"/>
+
+                    <CheckBox
+                        android:id="@+id/G06"
+                        android:layout_below="@id/G05"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Penglihatan silau" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G06"/>
+
+                    <CheckBox
+                        android:id="@+id/G07"
+                        android:layout_below="@id/G06"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Terlihat lingkaran cahaya" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G07"/>
+
+                    <CheckBox
+                        android:id="@+id/G08"
+                        android:layout_below="@+id/G07"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Penglihatan objek ganda" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G08"/>
+
+                    <CheckBox
+                        android:id="@+id/G09"
+                        android:layout_below="@id/G08"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mata berwarna merah" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G09"/>
+
+                    <CheckBox
+                        android:id="@+id/G10"
+                        android:layout_below="@id/G09"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mata terasa gatal" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G10"/>
+
+                    <CheckBox
+                        android:id="@+id/G11"
+                        android:layout_below="@id/G10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mata terasa panas" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G11"/>
+
+                    <CheckBox
+                        android:id="@+id/G12"
+                        android:layout_below="@id/G11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sakit kepala" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G12"/>
+
+                    <CheckBox
+                        android:id="@+id/G13"
+                        android:layout_below="@id/G12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mata terasa sakit" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G13"/>
+
+                    <CheckBox
+                        android:id="@+id/G14"
+                        android:layout_below="@id/G13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mata meradang" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G14"/>
+
+                    <CheckBox
+                        android:id="@+id/G15"
+                        android:layout_below="@id/G14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mata nyeri hebat" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G15"/>
+
+                    <CheckBox
+                        android:id="@+id/G16"
+                        android:layout_below="@id/G15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mata terasa nyeri" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G16"/>
+
+                    <CheckBox
+                        android:id="@+id/G17"
+                        android:layout_below="@id/G16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kelainan pada pupil mata" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G17"/>
+
+                    <CheckBox
+                        android:id="@+id/G18"
+                        android:layout_below="@id/G17"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mata lelah" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G18"/>
+
+                    <CheckBox
+                        android:id="@+id/G19"
+                        android:layout_below="@id/G18"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sering mengedipkan mata" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G19"/>
+
+                    <CheckBox
+                        android:id="@+id/G20"
+                        android:layout_below="@id/G19"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Peka terhadap cahaya" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G20"/>
+
+                    <CheckBox
+                        android:id="@+id/G21"
+                        android:layout_below="@id/G20"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Penglihatan dekat terasa kabur" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G21"/>
+
+                    <CheckBox
+                        android:id="@+id/G22"
+                        android:layout_below="@id/G21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tekanan bola mata meningkat" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G22"/>
+
+                    <CheckBox
+                        android:id="@+id/G23"
+                        android:layout_below="@id/G22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Penglihatan objek jauh kurang terlihat jelas" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G23"/>
+
+                    <CheckBox
+                        android:id="@+id/G24"
+                        android:layout_below="@id/G23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Lemak menutupi kornea" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G24"/>
+
+                    <CheckBox
+                        android:id="@+id/G25"
+                        android:layout_below="@id/G24"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Menyipitkan mata untuk melihat benda yang dekat" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G25"/>
+
+                    <CheckBox
+                        android:id="@+id/G26"
+                        android:layout_below="@id/G25"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sumber cahaya akan berwarna pelangi jika melihat cahaya yang terang" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G26"/>
+
+                    <CheckBox
+                        android:id="@+id/G27"
+                        android:layout_below="@id/G26"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mata tegang" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G27"/>
+
+                    <CheckBox
+                        android:id="@+id/G28"
+                        android:layout_below="@id/G27"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Terlihat bayangan garis hitam" />
+                    <com.google.android.material.divider.MaterialDivider
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/G28"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnDiagnosa"
+                        android:layout_below="@id/G28"
+                        android:text="Cek Diagnosa"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:backgroundTint="#559C98"
+                        android:padding="12dp"
+                        android:layout_centerHorizontal="true"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+        </ScrollView >
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

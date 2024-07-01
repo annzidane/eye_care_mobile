@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_page_ii"
+    tools:context=".view.about.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header_background_ii">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tentang Aplikasi"
+                    android:textColor="@color/White"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="Eye Care - Aplikasi Sistem Pakar untuk Diagnosa Penyakit Mata"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="Selamat datang di Eye Care, Aplikasi Sistem Pakar yang dirancang khusus untuk membantu Anda dalam mendiagnosis penyakit mata dengan akurat dan memberikan informasi yang berguna mengenai kesehatan mata. Aplikasi ini ditujukan untuk memberikan panduan awal bagi pengguna dalam mengidentifikasi gejala dan kemungkinan penyakit mata yang mungkin dialami."
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="Fitur Utama Aplikasi:"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="1. Diagnosa Penyakit Mata: Aplikasi Eye Care memiliki kemampuan untuk menganalisis gejala yang Anda alami pada mata dan memberikan diagnosa awal tentang penyakit mata yang mungkin terkait."
+                android:textSize="12sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="2. Informasi Penyakit Mata: Aplikasi ini menyediakan informasi yang lengkap mengenai berbagai jenis penyakit mata yang umum terjadi. Anda dapat mempelajari penyebab, gejala, diagnosa, dan perawatan yang diperlukan untuk setiap penyakit mata yang terdaftar."
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="3. Riwayat Diagnosa: Eye Care mencatat riwayat diagnosa yang telah Anda lakukan sebelumnya. Anda dapat melihat kembali hasil diagnosa sebelumnya serta gejala yang Anda pilih pada saat itu."
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="4. Petunjuk Penggunaan: Petunjuk penggunaan yang lengkap disediakan dalam aplikasi ini untuk membantu Anda memahami cara menggunakan fitur-fitur yang tersedia dengan benar. Petunjuk ini akan memandu Anda melalui proses diagnosa, membaca informasi penyakit mata, serta mengakses riwayat diagnosa."
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="Perhatian:"
+                android:textStyle="bold"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:justificationMode="inter_word"
+                android:text="Aplikasi Eye Care ini dirancang sebagai panduan awal dan tidak dapat menggantikan kunjungan ke dokter mata yang berkualifikasi. Jika Anda mengalami masalah kesehatan mata yang serius atau gejala yang tidak membaik, disarankan untuk segera berkonsultasi dengan dokter mata yang kompeten."
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Informasi yang diberikan oleh aplikasi ini hanya bersifat edukatif dan bukan pengganti nasihat medis profesional. Selalu konsultasikan kondisi mata Anda dengan dokter mata sebelum mengambil keputusan tentang perawatan atau pengobatan."
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:justificationMode="inter_word"
+                android:text="Terima kasih telah menggunakan Eye Care, Aplikasi Sistem Pakar untuk Diagnosa Penyakit Mata. Semoga aplikasi ini dapat memberikan informasi yang berguna dalam menjaga kesehatan mata Anda. Tetaplah peduli terhadap kesehatan mata Anda dan jangan ragu untuk berkonsultasi dengan dokter mata jika diperlukan."
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
